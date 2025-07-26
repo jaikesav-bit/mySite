@@ -1,0 +1,27 @@
+
+body {
+  background-color: black;
+  color: green;
+  font-family: monospace;
+  padding: 20px;
+}
+
+#terminal {
+  width: 100%;
+}
+
+.input-line {
+  display: flex;
+}
+
+.prompt {
+  margin-right: 5px;
+}
+
+#command {
+  background: black;
+  color: green;
+  border: none;
+  outline: none;
+  width: 90%;
+}
