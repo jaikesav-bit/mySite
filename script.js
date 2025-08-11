@@ -13,7 +13,9 @@ input.addEventListener("keydown", function(event) {
       output.innerHTML += "<div>This is a terminal-style website.</div>";
     } else if (command === "clear") {
       output.innerHTML = "";
-    } else {
+    } else if (command === "ls"){
+      output.innerHTML = "";
+    }else {
       output.innerHTML += "<div>Command not found</div>";
     }
 
